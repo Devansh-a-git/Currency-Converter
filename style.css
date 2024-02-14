@@ -1,0 +1,154 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+
+.main{
+background-color: #235789;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#head{
+    margin-top: 20px;
+    font-size: 2.4rem;
+
+}
+
+.container{
+
+background-color: #ED1C24;
+
+    padding-top: 25px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    width: 40rem;
+    border-radius: 8px;
+    box-shadow:  0px 5px 8px grey;
+    gap: 7rem;
+
+}
+
+.inpbox{
+
+    display: flex;
+    justify-content: center;
+    height: 8%;
+    width: 100%;
+
+}
+
+input{
+
+    height: 100%;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 8px;
+    font-size: 100%;
+    background-color: #E6EED6;
+
+}
+
+
+.dropdown{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 80%;
+    background-color: #E6EED6;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 8px;
+
+}
+
+.dropdown p{
+
+    text-align: center;
+
+}
+
+
+.from, .to{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    
+
+
+}
+
+
+
+
+.disp{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 80%;
+    gap: 40%;
+}
+
+.disp button{
+
+    height: 50%;
+    width: 35%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 3px 3px brown;
+    background-color: #E6EED6;
+}
+
+
+.disp p{
+
+    background-color: #E6EED6;
+    min-width: 50%;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+i{
+
+    font-size: xx-large;
+    color: grey;
+    font-weight: bold;
+  
+}
+
+select{
+    background-color: #E6EED6;
+    border: none;
+    font-weight: bold;
+}
